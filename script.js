@@ -3,7 +3,7 @@ function Person(name, age) {
 	this.name=name;
 	this.age=age;
 Person.prototype.greet= function(){
-		consol.log("Hello, my name is"+ ${this.name} +", I am" + ${this.age} +" years old")
+		console.log("Hello, my name is"+ ${this.name} +", I am" + ${this.age} +" years old")
 	}
 }
 
